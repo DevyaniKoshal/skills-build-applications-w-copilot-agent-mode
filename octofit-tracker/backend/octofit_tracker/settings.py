@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-dndo4y@31ew(!v+ihb^-73qgz1^dlm@!j1on^5+n14#1qx8y9)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Add the codespace URL to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'didactic-space-eureka-5px977rrgrg3j4j-8000.app.github.dev']
 
 
 # Application definition
